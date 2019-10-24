@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/masjid"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All of Dzikir"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <Button
+            android:id="@+id/btnPagi"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Dzikir Pagi"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/buttton"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/btnPetang"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Dzikir Petang"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/buttton"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <Button
+            android:id="@+id/btnHarian"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Doa Harian"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/buttton"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/btnShalat"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/buttton"
+            android:text="Dzikir Shalat"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        >
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="about"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttton"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
